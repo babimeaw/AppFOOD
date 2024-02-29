@@ -4,6 +4,9 @@
     <ion-buttons slot="start">
       <ion-back-button defaultHref="/"></ion-back-button>
     </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-button (click)="clearCart()">Limpar Carrinho</ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
@@ -68,8 +71,8 @@
       <ion-button slot="end" fill="clear" (click)="changeAddress()">Trocar</ion-button>
       <ion-icon slot="start" name="home-outline"></ion-icon>
       <ion-label>
-        <h5>Entregar em CASA</h5>
-        <ion-text><p>Andrade Neves, 1456</p></ion-text>
+        <h5>Entregar no Endereço</h5>
+        <ion-text><p>Rua Simeão Varela de Sa, 224, kit07</p></ion-text>
       </ion-label>
     </ion-item>
     <ion-row>

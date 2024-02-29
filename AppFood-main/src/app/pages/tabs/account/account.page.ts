@@ -21,25 +21,33 @@ export class AccountPage implements OnInit {
       this.orders = [
         {
           name: 'Dom Henrique',
-          address: 'Guarapuava, Paraná',
+          address: 'Prudentopolis, Paraná',
           price: '60.00',
           status: 'Entregue',
           foods:[
-            'Pizza x2',
-            'Burguer x2'
+            'Pizza 1x'
           ],
-          date:'Janeiro 29, 2024'
+          date:'10 de Fevereiro, 2024'
         },
         {
-          name: 'Dois Henrique',
+          name: 'Dom Henrique',
           address: 'Guarapuava, Paraná',
-          price: '140.00',
+          price: '40.00',
           status: 'Entregue',
           foods:[
-            'Pizza x1',
-            'Gelatina x2'
+            'Burguer x1'
           ],
-          date:'Fevereiro 26, 2024'
+          date:'14 de Janeiro, 2024'
+        },
+        {
+          name: 'Dois Henrique 2',
+          address: 'Guarapuava, Paraná',
+          price: '91.00',
+          status: 'Entregue',
+          foods:[
+            'Pizza x2'
+          ],
+          date:'Janeiro 5, 2024'
         },
       ];
       this.isLoading = false;
